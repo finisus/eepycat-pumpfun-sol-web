@@ -15,6 +15,8 @@
   --base: rgba(220, 224, 232, 1.0);
   --text: rgba(17, 17, 27, 1.0);
   --green: rgba(166, 227, 161, 1.0);
+  --twitter: rgba(137, 180, 250, 1.0);
+  --telegram: rgba(116, 199, 236, 1.0);
 }
 
 /* let page take full height of viewport excess */
@@ -102,6 +104,27 @@ header {
   25%, 75% { opacity: 1; }
 }
 
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+#twitter-button, #telegram-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: '2p';
+  font-size: 14px;
+  color: var(--text);
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+#twitter-button { background-color: var(--twitter); }
+#telegram-button { background-color: var(--telegram); }
+
 footer {
   position: fixed;
   bottom: 0;
@@ -127,7 +150,7 @@ footer {
 }
 
 .trade-container {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
