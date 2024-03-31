@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // copy button logic
   const copyButton = document.getElementById('copy-ca-button');
-  const textToCopy = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
+  const textToCopy = "3qy47zJhut8wCPorfuAqFsyihUCNnJgwcMivPKkPxxbM";
   copyButton.addEventListener("click", async () => {
     try {
       // Try the modern Clipboard API first (if supported)
@@ -38,12 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const chartBtn = document.getElementById('chart-button');
   chartBtn.addEventListener('click', function() {
-    window.open('https://www.pump.fun/', '_blank');
+    window.open('https://www.pump.fun/3qy47zJhut8wCPorfuAqFsyihUCNnJgwcMivPKkPxxbM', '_blank');
   });
 
   const buyBtn = document.getElementById('buy-button');
   buyBtn.addEventListener('click', function() {
-    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=', '_blank');
+    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=3qy47zJhut8wCPorfuAqFsyihUCNnJgwcMivPKkPxxbM', '_blank');
   });
 
 });
