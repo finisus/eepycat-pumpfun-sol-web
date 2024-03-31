@@ -65,3 +65,24 @@ header {
   font-size: 8px;
   margin-top: -10px;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer span {
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  word-break: break-all;
+  padding: 16px;
+}
