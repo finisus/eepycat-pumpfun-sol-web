@@ -113,13 +113,17 @@ footer {
   justify-content: center;
   align-items: center;
 }
-footer span {
+#contract {
   letter-spacing: 1px;
   line-height: 20px;
   font-size: 12px;
+  font-weight: 900;
   text-align: center;
   word-break: break-all;
-  padding: 16px;
+  padding: 4px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 24px;
 }
 
 .trade-container {
@@ -137,11 +141,9 @@ footer span {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 8px 12px;
-  border: 2px solid var(--text);
-  background-color: var(--green);
   font-family: '2p';
   font-size: 14px;
+  background-color: var(--green);
   color: var(--text);
   letter-spacing: 2px;
   cursor: pointer;

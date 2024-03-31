@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const chartBtn = document.getElementById('chart-button');
   chartBtn.addEventListener('click', function() {
-    window.open('https://pump.fun', '_blank');
+    window.open('https://www.pump.fun/', '_blank');
   });
 
   const buyBtn = document.getElementById('buy-button');
