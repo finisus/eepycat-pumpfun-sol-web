@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // links
   const twitterBtn = document.getElementById('twitter-button');
   twitterBtn.addEventListener('click', function() {
-    window.open('https://x.com/', '_blank');
+    window.open('https://twitter.com/EEPYCAT_Solana', '_blank');
   });
 
   const telegramBtn = document.getElementById('telegram-button');
   telegramBtn.addEventListener('click', function() {
-    window.open('https://t.me/', '_blank');
+    window.open('https://t.me/EEPYSol', '_blank');
   });
 
   const chartBtn = document.getElementById('chart-button');

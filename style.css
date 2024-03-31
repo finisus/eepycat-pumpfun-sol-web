@@ -27,13 +27,14 @@ body {
   background-color: var(--base);
   color: var(--text);
   font-family: '2p';
+  overflow: hidden;
 }
 
 header {
   position: fixed;
-  top: 0;
+  top: 33%;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -50%);
   width: 100%;
   margin-top: 36px;
   display: flex;
@@ -147,6 +148,7 @@ footer {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 24px;
+  color: var(--text);
 }
 
 .trade-container {
@@ -170,4 +172,49 @@ footer {
   color: var(--text);
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+.cat-container {
+  width: 100%;
+  height: 100%;
+  opacity: 0.44;
+}
+
+#cat1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: -22px;
+  width: 280px;
+  height: 320px;
+  object-fit:cover;
+}
+
+.cateepy {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -88px;
+  margin-left: -50px;
+  width: 220px;
+  height: auto;
+}
+
+#longcat {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 170px;
+  width: 130%;
+  height: 150px;
+  z-index: -80;
+}
+
+#maineepy {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -90;
 }
