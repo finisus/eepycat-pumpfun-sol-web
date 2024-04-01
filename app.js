@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const chartBtn = document.getElementById('chart-button');
   chartBtn.addEventListener('click', function() {
-    window.open('https://www.pump.fun/3qy47zJhut8wCPorfuAqFsyihUCNnJgwcMivPKkPxxbM', '_blank');
+    window.open('https://dexscreener.com/solana/bk3x1hfnpox3sw6qifulsrchrn6csk58jghbd1yalfsk', '_blank');
   });
 
   const buyBtn = document.getElementById('buy-button');
